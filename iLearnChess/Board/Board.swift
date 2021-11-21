@@ -7,27 +7,38 @@
 
 import Foundation
 
-struct Board {
-    let rows = 8
-    let columns = 8
-    lazy var squares: [[Square]] = {
+typealias Rank = [Square]
+typealias File = [Square]
+
+class Board {
+    let ranks: Int
+    let files: Int
+    private var squares: [[Square]]
+    
+    init(ranks: Int, files: Int) {
+        self.ranks = ranks
+        self.files = files
+        self.squares = []
+        self.squares = makeSquares(ranks: ranks, files: files)
+    }
+    
+    private func makeSquares(ranks: Int, files: Int) -> [[Square]] {
         var squares = [[Square]]()
-        for row in 1...rows {
-            for col in 1...columns {
-                
+        var colorType = ColorType.black
+        for row in 0..<ranks {
+            var file = [Square]()
+            for col in 0..<files {
+                let square = Square(rowIndex: row, colIndex: col, colorType: colorType)
+                file.append(square)
+                colorType = colorType.oppositeColor
             }
+            squares[row] = file
         }
         return squares
-    }()
+    }
     
 }
 
-struct Square {
-    let rowIndex: Int
-    let colIndex: Int
-    
-    enum SquareType {
-        case white
-        case black
-    }
-}
+
+
+

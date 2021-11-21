@@ -17,6 +17,18 @@
 		53841F77274A70260043A552 /* Board2DView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53841F76274A70260043A552 /* Board2DView.swift */; };
 		53841F7A274A704E0043A552 /* BoardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53841F79274A704E0043A552 /* BoardViewModel.swift */; };
 		53841F7C274A70C00043A552 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53841F7B274A70C00043A552 /* Board.swift */; };
+		53841F82274A79ED0043A552 /* ColorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53841F81274A79ED0043A552 /* ColorType.swift */; };
+		53841F83274A7A100043A552 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53841F7F274A79D40043A552 /* Square.swift */; };
+		53841F8D274A7C790043A552 /* iLearnChessMacOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53841F8C274A7C790043A552 /* iLearnChessMacOSApp.swift */; };
+		53841F8F274A7C790043A552 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53841F8E274A7C790043A552 /* ContentView.swift */; };
+		53841F91274A7C7B0043A552 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53841F90274A7C7B0043A552 /* Assets.xcassets */; };
+		53841F94274A7C7B0043A552 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53841F93274A7C7B0043A552 /* Preview Assets.xcassets */; };
+		53841FB5274A7C900043A552 /* ColorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53841F81274A79ED0043A552 /* ColorType.swift */; };
+		53841FB6274A7C970043A552 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53841F7F274A79D40043A552 /* Square.swift */; };
+		53841FB7274A7C9B0043A552 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53841F7B274A70C00043A552 /* Board.swift */; };
+		53841FB8274A7CB70043A552 /* SquareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53841F7D274A76FC0043A552 /* SquareTests.swift */; };
+		53841FB9274A7CC20043A552 /* ColorTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53841F84274A7AC40043A552 /* ColorTypeTests.swift */; };
+		53841FBB274A7FE00043A552 /* BoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53841FBA274A7FE00043A552 /* BoardTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,13 @@
 			remoteGlobalIDString = 53841F48274A6FEC0043A552;
 			remoteInfo = iLearnChess;
 		};
+		53841F9B274A7C7B0043A552 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53841F41274A6FEC0043A552 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53841F89274A7C790043A552;
+			remoteInfo = iLearnChessMacOS;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +69,18 @@
 		53841F76274A70260043A552 /* Board2DView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board2DView.swift; sourceTree = "<group>"; };
 		53841F79274A704E0043A552 /* BoardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardViewModel.swift; sourceTree = "<group>"; };
 		53841F7B274A70C00043A552 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		53841F7D274A76FC0043A552 /* SquareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareTests.swift; sourceTree = "<group>"; };
+		53841F7F274A79D40043A552 /* Square.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
+		53841F81274A79ED0043A552 /* ColorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorType.swift; sourceTree = "<group>"; };
+		53841F84274A7AC40043A552 /* ColorTypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTypeTests.swift; sourceTree = "<group>"; };
+		53841F8A274A7C790043A552 /* iLearnChessMacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iLearnChessMacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53841F8C274A7C790043A552 /* iLearnChessMacOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iLearnChessMacOSApp.swift; sourceTree = "<group>"; };
+		53841F8E274A7C790043A552 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		53841F90274A7C7B0043A552 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53841F93274A7C7B0043A552 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		53841F95274A7C7B0043A552 /* iLearnChessMacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iLearnChessMacOS.entitlements; sourceTree = "<group>"; };
+		53841F9A274A7C7B0043A552 /* iLearnChessMacOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iLearnChessMacOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53841FBA274A7FE00043A552 /* BoardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +105,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		53841F87274A7C790043A552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53841F97274A7C7B0043A552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -83,6 +128,8 @@
 				53841F4B274A6FEC0043A552 /* iLearnChess */,
 				53841F5C274A6FEE0043A552 /* iLearnChessTests */,
 				53841F66274A6FEE0043A552 /* iLearnChessUITests */,
+				53841F8B274A7C790043A552 /* iLearnChessMacOS */,
+				53841F9D274A7C7B0043A552 /* iLearnChessMacOSTests */,
 				53841F4A274A6FEC0043A552 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,6 +140,8 @@
 				53841F49274A6FEC0043A552 /* iLearnChess.app */,
 				53841F59274A6FEE0043A552 /* iLearnChessTests.xctest */,
 				53841F63274A6FEE0043A552 /* iLearnChessUITests.xctest */,
+				53841F8A274A7C790043A552 /* iLearnChessMacOS.app */,
+				53841F9A274A7C7B0043A552 /* iLearnChessMacOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,8 +189,40 @@
 				53841F76274A70260043A552 /* Board2DView.swift */,
 				53841F79274A704E0043A552 /* BoardViewModel.swift */,
 				53841F7B274A70C00043A552 /* Board.swift */,
+				53841F7F274A79D40043A552 /* Square.swift */,
+				53841F81274A79ED0043A552 /* ColorType.swift */,
 			);
 			path = Board;
+			sourceTree = "<group>";
+		};
+		53841F8B274A7C790043A552 /* iLearnChessMacOS */ = {
+			isa = PBXGroup;
+			children = (
+				53841F8C274A7C790043A552 /* iLearnChessMacOSApp.swift */,
+				53841F8E274A7C790043A552 /* ContentView.swift */,
+				53841F90274A7C7B0043A552 /* Assets.xcassets */,
+				53841F95274A7C7B0043A552 /* iLearnChessMacOS.entitlements */,
+				53841F92274A7C7B0043A552 /* Preview Content */,
+			);
+			path = iLearnChessMacOS;
+			sourceTree = "<group>";
+		};
+		53841F92274A7C7B0043A552 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				53841F93274A7C7B0043A552 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		53841F9D274A7C7B0043A552 /* iLearnChessMacOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				53841F7D274A76FC0043A552 /* SquareTests.swift */,
+				53841F84274A7AC40043A552 /* ColorTypeTests.swift */,
+				53841FBA274A7FE00043A552 /* BoardTests.swift */,
+			);
+			path = iLearnChessMacOSTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +281,41 @@
 			productReference = 53841F63274A6FEE0043A552 /* iLearnChessUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		53841F89274A7C790043A552 /* iLearnChessMacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53841FAC274A7C7B0043A552 /* Build configuration list for PBXNativeTarget "iLearnChessMacOS" */;
+			buildPhases = (
+				53841F86274A7C790043A552 /* Sources */,
+				53841F87274A7C790043A552 /* Frameworks */,
+				53841F88274A7C790043A552 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iLearnChessMacOS;
+			productName = iLearnChessMacOS;
+			productReference = 53841F8A274A7C790043A552 /* iLearnChessMacOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53841F99274A7C7B0043A552 /* iLearnChessMacOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53841FAF274A7C7B0043A552 /* Build configuration list for PBXNativeTarget "iLearnChessMacOSTests" */;
+			buildPhases = (
+				53841F96274A7C7B0043A552 /* Sources */,
+				53841F97274A7C7B0043A552 /* Frameworks */,
+				53841F98274A7C7B0043A552 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53841F9C274A7C7B0043A552 /* PBXTargetDependency */,
+			);
+			name = iLearnChessMacOSTests;
+			productName = iLearnChessMacOSTests;
+			productReference = 53841F9A274A7C7B0043A552 /* iLearnChessMacOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -221,6 +337,13 @@
 						CreatedOnToolsVersion = 13.0;
 						TestTargetID = 53841F48274A6FEC0043A552;
 					};
+					53841F89274A7C790043A552 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					53841F99274A7C7B0043A552 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 53841F89274A7C790043A552;
+					};
 				};
 			};
 			buildConfigurationList = 53841F44274A6FEC0043A552 /* Build configuration list for PBXProject "iLearnChess" */;
@@ -239,6 +362,8 @@
 				53841F48274A6FEC0043A552 /* iLearnChess */,
 				53841F58274A6FEE0043A552 /* iLearnChessTests */,
 				53841F62274A6FEE0043A552 /* iLearnChessUITests */,
+				53841F89274A7C790043A552 /* iLearnChessMacOS */,
+				53841F99274A7C7B0043A552 /* iLearnChessMacOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -267,6 +392,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		53841F88274A7C790043A552 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53841F94274A7C7B0043A552 /* Preview Assets.xcassets in Resources */,
+				53841F91274A7C7B0043A552 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53841F98274A7C7B0043A552 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -275,7 +416,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				53841F4F274A6FEC0043A552 /* ContentView.swift in Sources */,
+				53841F82274A79ED0043A552 /* ColorType.swift in Sources */,
 				53841F77274A70260043A552 /* Board2DView.swift in Sources */,
+				53841F83274A7A100043A552 /* Square.swift in Sources */,
 				53841F7C274A70C00043A552 /* Board.swift in Sources */,
 				53841F4D274A6FEC0043A552 /* iLearnChessApp.swift in Sources */,
 				53841F7A274A704E0043A552 /* BoardViewModel.swift in Sources */,
@@ -299,6 +442,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		53841F86274A7C790043A552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53841FB6274A7C970043A552 /* Square.swift in Sources */,
+				53841F8F274A7C790043A552 /* ContentView.swift in Sources */,
+				53841FB7274A7C9B0043A552 /* Board.swift in Sources */,
+				53841FB5274A7C900043A552 /* ColorType.swift in Sources */,
+				53841F8D274A7C790043A552 /* iLearnChessMacOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53841F96274A7C7B0043A552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53841FB9274A7CC20043A552 /* ColorTypeTests.swift in Sources */,
+				53841FB8274A7CB70043A552 /* SquareTests.swift in Sources */,
+				53841FBB274A7FE00043A552 /* BoardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -311,6 +476,11 @@
 			isa = PBXTargetDependency;
 			target = 53841F48274A6FEC0043A552 /* iLearnChess */;
 			targetProxy = 53841F64274A6FEE0043A552 /* PBXContainerItemProxy */;
+		};
+		53841F9C274A7C7B0043A552 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53841F89274A7C790043A552 /* iLearnChessMacOS */;
+			targetProxy = 53841F9B274A7C7B0043A552 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -447,7 +617,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -477,7 +647,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -500,7 +670,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q4783BNZ95;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -525,7 +695,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q4783BNZ95;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -587,6 +757,116 @@
 			};
 			name = Release;
 		};
+		53841FAD274A7C7B0043A552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iLearnChessMacOS/iLearnChessMacOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iLearnChessMacOS/Preview Content\"";
+				DEVELOPMENT_TEAM = Q4783BNZ95;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keith27.iLearnChessMacOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		53841FAE274A7C7B0043A552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iLearnChessMacOS/iLearnChessMacOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iLearnChessMacOS/Preview Content\"";
+				DEVELOPMENT_TEAM = Q4783BNZ95;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keith27.iLearnChessMacOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		53841FB0274A7C7B0043A552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q4783BNZ95;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keith27.iLearnChessMacOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iLearnChessMacOS.app/Contents/MacOS/iLearnChessMacOS";
+			};
+			name = Debug;
+		};
+		53841FB1274A7C7B0043A552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q4783BNZ95;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keith27.iLearnChessMacOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iLearnChessMacOS.app/Contents/MacOS/iLearnChessMacOS";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -622,6 +902,24 @@
 			buildConfigurations = (
 				53841F74274A6FEE0043A552 /* Debug */,
 				53841F75274A6FEE0043A552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53841FAC274A7C7B0043A552 /* Build configuration list for PBXNativeTarget "iLearnChessMacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53841FAD274A7C7B0043A552 /* Debug */,
+				53841FAE274A7C7B0043A552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53841FAF274A7C7B0043A552 /* Build configuration list for PBXNativeTarget "iLearnChessMacOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53841FB0274A7C7B0043A552 /* Debug */,
+				53841FB1274A7C7B0043A552 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
