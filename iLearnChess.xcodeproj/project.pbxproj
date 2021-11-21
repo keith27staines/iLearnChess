@@ -14,6 +14,9 @@
 		53841F5E274A6FEE0043A552 /* iLearnChessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53841F5D274A6FEE0043A552 /* iLearnChessTests.swift */; };
 		53841F68274A6FEE0043A552 /* iLearnChessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53841F67274A6FEE0043A552 /* iLearnChessUITests.swift */; };
 		53841F6A274A6FEE0043A552 /* iLearnChessUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53841F69274A6FEE0043A552 /* iLearnChessUITestsLaunchTests.swift */; };
+		53841F77274A70260043A552 /* Board2DView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53841F76274A70260043A552 /* Board2DView.swift */; };
+		53841F7A274A704E0043A552 /* BoardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53841F79274A704E0043A552 /* BoardViewModel.swift */; };
+		53841F7C274A70C00043A552 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53841F7B274A70C00043A552 /* Board.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		53841F63274A6FEE0043A552 /* iLearnChessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iLearnChessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53841F67274A6FEE0043A552 /* iLearnChessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iLearnChessUITests.swift; sourceTree = "<group>"; };
 		53841F69274A6FEE0043A552 /* iLearnChessUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iLearnChessUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		53841F76274A70260043A552 /* Board2DView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board2DView.swift; sourceTree = "<group>"; };
+		53841F79274A704E0043A552 /* BoardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardViewModel.swift; sourceTree = "<group>"; };
+		53841F7B274A70C00043A552 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,7 @@
 				53841F4E274A6FEC0043A552 /* ContentView.swift */,
 				53841F50274A6FED0043A552 /* Assets.xcassets */,
 				53841F52274A6FED0043A552 /* Preview Content */,
+				53841F78274A70350043A552 /* Board */,
 			);
 			path = iLearnChess;
 			sourceTree = "<group>";
@@ -125,6 +132,16 @@
 				53841F69274A6FEE0043A552 /* iLearnChessUITestsLaunchTests.swift */,
 			);
 			path = iLearnChessUITests;
+			sourceTree = "<group>";
+		};
+		53841F78274A70350043A552 /* Board */ = {
+			isa = PBXGroup;
+			children = (
+				53841F76274A70260043A552 /* Board2DView.swift */,
+				53841F79274A704E0043A552 /* BoardViewModel.swift */,
+				53841F7B274A70C00043A552 /* Board.swift */,
+			);
+			path = Board;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +275,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				53841F4F274A6FEC0043A552 /* ContentView.swift in Sources */,
+				53841F77274A70260043A552 /* Board2DView.swift in Sources */,
+				53841F7C274A70C00043A552 /* Board.swift in Sources */,
 				53841F4D274A6FEC0043A552 /* iLearnChessApp.swift in Sources */,
+				53841F7A274A704E0043A552 /* BoardViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
