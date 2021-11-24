@@ -5,7 +5,7 @@
 //  Created by Keith Staines on 21/11/2021.
 //
 
-enum ColorType {
+enum ColorType: Hashable, Codable {
     case white
     case black
     var oppositeColor: ColorType {

@@ -10,11 +10,11 @@ import XCTest
 
 class SquareTests: XCTestCase {
 
-    func test_init() {
-        let sut = Square(rowIndex: 4, colIndex: 7, colorType: .black)
-        XCTAssertEqual(sut.rowIndex, 4)
-        XCTAssertEqual(sut.colIndex, 7)
-        XCTAssertEqual(sut.colorType, .black)
+    func test_color_of_square_on_long_forward_diagonal() {
+        let sut = Square(rank: 3, file: 3)
+        XCTAssertEqual(sut.rank, 3)
+        XCTAssertEqual(sut.file, 3)
+        XCTAssertEqual(sut.squareColor, .black)
     }
 
 }

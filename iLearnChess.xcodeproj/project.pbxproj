@@ -29,6 +29,9 @@
 		53841FB8274A7CB70043A552 /* SquareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53841F7D274A76FC0043A552 /* SquareTests.swift */; };
 		53841FB9274A7CC20043A552 /* ColorTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53841F84274A7AC40043A552 /* ColorTypeTests.swift */; };
 		53841FBB274A7FE00043A552 /* BoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53841FBA274A7FE00043A552 /* BoardTests.swift */; };
+		53841FBD274E403D0043A552 /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53841FBC274E403D0043A552 /* Piece.swift */; };
+		53841FBF274E61F00043A552 /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53841FBC274E403D0043A552 /* Piece.swift */; };
+		53841FC1274E63E60043A552 /* PieceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53841FC0274E63E60043A552 /* PieceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +84,8 @@
 		53841F95274A7C7B0043A552 /* iLearnChessMacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iLearnChessMacOS.entitlements; sourceTree = "<group>"; };
 		53841F9A274A7C7B0043A552 /* iLearnChessMacOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iLearnChessMacOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53841FBA274A7FE00043A552 /* BoardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardTests.swift; sourceTree = "<group>"; };
+		53841FBC274E403D0043A552 /* Piece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Piece.swift; sourceTree = "<group>"; };
+		53841FC0274E63E60043A552 /* PieceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +159,7 @@
 				53841F50274A6FED0043A552 /* Assets.xcassets */,
 				53841F52274A6FED0043A552 /* Preview Content */,
 				53841F78274A70350043A552 /* Board */,
+				53841FBE274E404C0043A552 /* Piece */,
 			);
 			path = iLearnChess;
 			sourceTree = "<group>";
@@ -221,8 +227,17 @@
 				53841F7D274A76FC0043A552 /* SquareTests.swift */,
 				53841F84274A7AC40043A552 /* ColorTypeTests.swift */,
 				53841FBA274A7FE00043A552 /* BoardTests.swift */,
+				53841FC0274E63E60043A552 /* PieceTests.swift */,
 			);
 			path = iLearnChessMacOSTests;
+			sourceTree = "<group>";
+		};
+		53841FBE274E404C0043A552 /* Piece */ = {
+			isa = PBXGroup;
+			children = (
+				53841FBC274E403D0043A552 /* Piece.swift */,
+			);
+			path = Piece;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -419,6 +434,7 @@
 				53841F82274A79ED0043A552 /* ColorType.swift in Sources */,
 				53841F77274A70260043A552 /* Board2DView.swift in Sources */,
 				53841F83274A7A100043A552 /* Square.swift in Sources */,
+				53841FBD274E403D0043A552 /* Piece.swift in Sources */,
 				53841F7C274A70C00043A552 /* Board.swift in Sources */,
 				53841F4D274A6FEC0043A552 /* iLearnChessApp.swift in Sources */,
 				53841F7A274A704E0043A552 /* BoardViewModel.swift in Sources */,
@@ -448,6 +464,7 @@
 			files = (
 				53841FB6274A7C970043A552 /* Square.swift in Sources */,
 				53841F8F274A7C790043A552 /* ContentView.swift in Sources */,
+				53841FBF274E61F00043A552 /* Piece.swift in Sources */,
 				53841FB7274A7C9B0043A552 /* Board.swift in Sources */,
 				53841FB5274A7C900043A552 /* ColorType.swift in Sources */,
 				53841F8D274A7C790043A552 /* iLearnChessMacOSApp.swift in Sources */,
@@ -458,6 +475,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53841FC1274E63E60043A552 /* PieceTests.swift in Sources */,
 				53841FB9274A7CC20043A552 /* ColorTypeTests.swift in Sources */,
 				53841FB8274A7CB70043A552 /* SquareTests.swift in Sources */,
 				53841FBB274A7FE00043A552 /* BoardTests.swift in Sources */,
